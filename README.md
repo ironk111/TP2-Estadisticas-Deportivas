@@ -4,10 +4,22 @@ Trabajo Práctico de Organización Empresarial utilizando Git, GitHub y Jira.
 ## Integrante
 - Tiziano Dylan Baez
 
-## Objetivo
-Analizar estadísticas deportivas mediante Python aplicando buenas prácticas de control de versiones y gestión colaborativa.
+# TP2 - Estadísticas Deportivas
 
-## Estructura
-- /scripts → código fuente
-- /datos → datasets
-- /resultados → gráficos y resultados
+## Descripción
+Proyecto realizado para la materia Organización Empresarial utilizando Git, GitHub, Jira y Google Colab.
+
+## Funcionalidad
+El sistema procesa un archivo CSV con estadísticas deportivas y calcula métricas básicas.
+
+## Tecnologías utilizadas
+- Python
+- Git
+- GitHub
+- Jira
+- Google Colab
+
+## Estructura del proyecto
+- /datos
+- /scripts
+- /resultados
