@@ -1,4 +1,6 @@
 
+import matplotlib.pyplot as plt
+
 partidos = []
 
 try:
@@ -32,3 +34,37 @@ else:
 
     print("Cantidad de partidos:", len(partidos))
     print("Promedio de goles:", round(promedio, 2))
+
+
+victorias = {}
+
+for partido in partidos:
+
+    if partido["goles_local"] > partido["goles_visitante"]:
+
+        ganador = partido["local"]
+
+    elif partido["goles_visitante"] > partido["goles_local"]:
+
+        ganador = partido["visitante"]
+
+    else:
+        continue
+
+    if ganador in victorias:
+        victorias[ganador] += 1
+    else:
+        victorias[ganador] = 1
+
+equipos = list(victorias.keys())
+cantidad = list(victorias.values())
+
+plt.bar(equipos, cantidad)
+
+plt.title("Partidos ganados por equipo")
+plt.xlabel("Equipos")
+plt.ylabel("Victorias")
+
+plt.savefig("resultados/grafico_victorias.png")
+
+print("Gráfico generado correctamente.")
