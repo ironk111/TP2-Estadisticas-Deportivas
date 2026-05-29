@@ -4,8 +4,6 @@ Trabajo Práctico de Organización Empresarial utilizando Git, GitHub y Jira.
 ## Integrante
 - Tiziano Dylan Baez
 
-# TP2 - Estadísticas Deportivas
-
 ## Descripción
 Proyecto realizado para la materia Organización Empresarial utilizando Git, GitHub, Jira y Google Colab.
 
